@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+.header {
+    background-color: #eccaca;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1, .header p {
+    margin: 0;
+}
+
+/* Navegación */
+.nav {
+    background-color: #ccc;
+    padding: 10px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #555;
+}
+
+/* Barra lateral */
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+/* Sección */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.content a {
+    color: #17076e;
+    font-weight: bold;
+}
+
+.content a:hover {
+    color: #4b0082;
+}
+
+/* Contenido principal */
+.main {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+.main p {
+    margin-bottom: 30px;
+}
+
+.main img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #e4dcdc;
+    color: #aa116f;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
